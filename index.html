@@ -32,98 +32,97 @@
       </nav>
     </header>
 
-      <div class="hero">
-          <img src="svg/hey.svg">
-      </div>
+    <div class="hero">
+        <img src="svg/hey.svg">
+    </div>
 
+    <div class="container">
+      <div class="intro">
+        <h1>I'm Emily,</h1>
+        <h3>a designer with 10+ years of professional experience (and a thick-ass country accent)</h3>
+        <p>I have a keen eye for digital and print. My background includes ux, branding, layout, art direction, and app and website design.</p>
+        <p>Currently, I work as a UX designer at Humana.</p>
+        <a href="about.html" class="btn">Find out more<img src="svg/right-arrow.svg" class="arrow"></a>
+      </div>
+    </div> <!-- container -->
+
+    <div class="work">
       <div class="container">
-        <div class="intro">
-          <h1>I'm Emily,</h1>
-          <h3>a designer with 10+ years of professional experience (and a thick-ass country accent)</h3>
-          <p>I have a keen eye for digital and print. My background includes ux, branding, layout, art direction, and app and website design.</p>
-          <p>Currently, I work as a UX designer at Humana.</p>
-          <a href="about.html" class="btn">Find out more<img src="svg/right-arrow.svg" class="arrow"></a>
+        <h2>Work</h2>
+        <h3>design • art direction • ux • branding</h3>
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
+          </div>
+        </div>
+        <a href="work.html" class="btn">View all projects<img src="svg/right-arrow.svg" class="arrow"></a>
+      </div> <!-- container -->
+    </div>
+
+    <div class="contact group">
+      <div class="container">
+        <div class="content">
+          <h2>Contact</h2>
+          <h3>Get in touch</h3>
+        </div>
+        <div class="form-fields">
+          <form action="index.html" method="post">
+            <label for="name">What's your <b>name?</b></label><br>
+            <input type="text" id="name" name="user_name"><br>
+
+            <label for="mail">What's your <b>email?</b></label><br>
+            <input type="mail" id="mail" name="user_email"><br>
+
+            <label for="message">Leave me a <b>message!</b></label><br>
+            <textarea id="message" name="user_interest"></textarea><br>
+          </form>
+          <!-- Trigger modal -->
+          <button id="button" type="submit">Send message<img src="svg/right-arrow-white.svg" class="arrow"></button>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&#10005;</span>
+            <!--<img class="close" src="svg/close.svg">-->
+            <h2>Awesome!</h2>
+            <h3>Your message has been sent. <span style="font-style:normal;">&#9992;</span></h3>
+            <p>Thanks for reaching out to me. I'll be getting back to you soon.</p>
+          </div>
         </div>
       </div> <!-- container -->
+    </div>
 
-      <div class="work">
-        <div class="container">
-          <h2>Work</h2>
-          <h3>design • art direction • ux • branding</h3>
-          <div class="card-group">
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
-            </div>
-          </div>
-
-          <div class="card-group">
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch/grayscale" alt="Card image cap">
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/250/200/arch" alt="Card image cap">
-            </div>
-          </div>
-          <a href="work.html" class="btn">View all projects<img src="svg/right-arrow.svg" class="arrow"></a>
-        </div> <!-- container -->
-      </div>
-
-      <div class="contact group">
-        <div class="container">
-          <div class="content">
-            <h2>Contact</h2>
-            <h3>Get in touch</h3>
-          </div>
-          <div class="form-fields">
-            <form action="index.html" method="post">
-              <label for="name">What's your <b>name?</b></label><br>
-              <input type="text" id="name" name="user_name"><br>
-
-              <label for="mail">What's your <b>email?</b></label><br>
-              <input type="mail" id="mail" name="user_email"><br>
-
-              <label for="message">Leave me a <b>message!</b></label><br>
-              <textarea id="message" name="user_interest"></textarea><br>
-            </form>
-            <!-- Trigger modal -->
-            <button id="button" type="submit">Send message<img src="svg/right-arrow-white.svg" class="arrow"></button>
-          </div>
-
-          <!-- Modal -->
-          <div id="modal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&#10005;</span>
-              <!--<img class="close" src="svg/close.svg">-->
-              <h2>Awesome!</h2>
-              <h3>Your message has been sent. <span style="font-style:normal;">&#9992;</span></h3>
-              <p>Thanks for reaching out to me. I'll be getting back to you soon.</p>
-            </div>
-          </div>
-        </div> <!-- container -->
-      </div>
-
-      <footer>
-        <div class="container">
-          <p>&copy;2018. Emily Clark built<br>this mutherf#ucker.<img id="emoji" src="img/upside-down-emoji.png"</p>
-          <div class="social">
-            <ul>
-              <li><a href="https://www.instagram.com/emilyblaineclark/" target="_blank"><img id="instagram" src="svg/instagram.svg" alt="Follow Emily Clark on Instagram"></a>
-              <li><a href="https://www.linkedin.com/in/emilyblaineclark/" target="_blank"><img id="linkedin"src="svg/linkedin.svg" alt="Follow Emily Clark on LinkedIn"></a>
-            </ul>
-          </div>
-        </div> <!-- container -->
-      </footer>
-
+    <footer>
+      <div class="container">
+        <p>&copy;2018. Emily Clark built<br>this mutherf#ucker.<img id="emoji" src="img/upside-down-emoji.png"</p>
+        <div class="social">
+          <ul>
+            <li><a href="https://www.instagram.com/emilyblaineclark/" target="_blank"><img id="instagram" src="svg/instagram.svg" alt="Follow Emily Clark on Instagram"></a>
+            <li><a href="https://www.linkedin.com/in/emilyblaineclark/" target="_blank"><img id="linkedin"src="svg/linkedin.svg" alt="Follow Emily Clark on LinkedIn"></a>
+          </ul>
+        </div>
+      </div> <!-- container -->
+    </footer>
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
@@ -131,5 +130,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
   </body>
 </html>
