@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Emily Clark</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="svg/logo2.svg" alt="Emily Clark"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="about.html">About</a>
+              <a class="nav-item nav-link" href="work.html">Work</a>
+              <a class="nav-item nav-link" href="img/emily_clark_resume.pdf" target="_blank">Resume</a>
+            </div>
+          </div>
+        </div> <!-- container -->
+      </nav>
+    </header>
+
+    <div class="about group">
+      <div class="container">
+        <div class="about-portrait">
+          <img src="img/portrait_small.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="about-svg">
+          <img src="svg/about.svg">
+        </div>
+      </div> <!-- container -->
+    </div>
+
+    <div class="bio">
+      <div class="container">
+        <h2>Made in Mississippi</h2>
+        <h3>(where the thick-ass country accent comes from)</h3>
+        <p>&quot;Come home when the streetlights come on,&quot; my mom used to say to me and my little brother. Dirt under our nails and fresh off hours of imagination, eventually, we did.</p>
+        <p>Barefoot adventures in the Mississippi delta branded me: disciplined, instinctive, bold. But small-town dreams need sculpting. After high school, I moved to Savannah, Georgia where I finished my graphic design degree at the Savannah College of Art and Design.</p>
+        <blockquote>&quot;It's not what you know. It's how you Google.&quot;<br><span style="color:#8D8D8D; font-weight:400;">&#8212; Me</span></blockquote>
+        <p>Today, I live in Louisville, Kentucky and work as a UX designer at Humana. I have a keen eye for both digital and print; my background includes branding, layout, art direction, and app and website design.</p>
+        <p>Over the years, I have collaborated with developers, marketers, copywriters, clients, and photographers.</p>
+      </div> <!-- container -->
+    </div>
+
+    <div class="contact group">
+      <div class="container">
+        <div class="content">
+          <h2>Contact</h2>
+          <h3>Get in touch</h3>
+        </div>
+        <div class="form-fields">
+          <form action="index.html" method="post">
+            <label for="name">What's your <b>name?</b></label><br>
+            <input type="text" id="name" name="user_name"><br>
+
+            <label for="mail">What's your <b>email?</b></label><br>
+            <input type="mail" id="mail" name="user_email"><br>
+
+            <label for="message">Leave me a <b>message!</b></label><br>
+            <textarea id="message" name="user_interest"></textarea><br>
+          </form>
+          <!-- Trigger modal -->
+          <button id="button" type="submit">Send message<img src="svg/right-arrow-white.svg" class="arrow"></button>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&#10005;</span>
+            <!--<img class="close" src="svg/close.svg">-->
+            <h2>Awesome!</h2>
+            <h3>Your message has been sent. <span style="font-style:normal;">&#9992;</span></h3>
+            <p>Thanks for reaching out to me. I'll be getting back to you soon.</p>
+          </div>
+        </div>
+      </div> <!-- container -->
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy;2018. Emily Clark built<br>this mutherf#ucker.<img id="emoji" src="img/upside-down-emoji.png"</p>
+        <div class="social">
+          <ul>
+            <li><a href="https://www.instagram.com/emilyblaineclark/" target="_blank"><img id="instagram" src="svg/instagram.svg" alt="Follow Emily Clark on Instagram"></a>
+            <li><a href="https://www.linkedin.com/in/emilyblaineclark/" target="_blank"><img id="linkedin"src="svg/linkedin.svg" alt="Follow Emily Clark on LinkedIn"></a>
+          </ul>
+        </div>
+      </div> <!-- container -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
